@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: 22a4bf9e5d954084bb44dcb30db4f868
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_0
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 110
+        width: 370
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc04667e15830047a01e7c8b4ba10dd
+      internalID: -1675811783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 78
+        width: 345
+        height: 503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280ca511937ce1544a9948751e2ba8bf
+      internalID: 1316698726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 78
+        width: 343
+        height: 503
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9291f4b85ee2ef24ca17019d9d27e723
+      internalID: 1648993205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_3
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 75
+        width: 349
+        height: 506
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5012dc663d25a6458545388b81e9149
+      internalID: -1986308731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_4
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 46
+        width: 337
+        height: 535
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f983b9c90c50be4fb702f2fff807caa
+      internalID: 1257710810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_5
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 37
+        width: 334
+        height: 541
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cca9707a283aef40b802e6e07faec73
+      internalID: 1290776631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_6
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 37
+        width: 336
+        height: 544
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0164e8fd6d0074fa49914d9d632139
+      internalID: -1398076598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_7
+      rect:
+        serializedVersion: 2
+        x: 3567
+        y: 37
+        width: 334
+        height: 544
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28406c79b1dfa4e41b163d162276f2d9
+      internalID: -1128833106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_8
+      rect:
+        serializedVersion: 2
+        x: 3908
+        y: 28
+        width: 336
+        height: 552
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30aa3867d4d66e546ae30b69eab80999
+      internalID: 1566560218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_9
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 10
+        width: 339
+        height: 568
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1122739fe78d00540b16246b7f372a9c
+      internalID: 747660796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_10
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 10
+        width: 343
+        height: 571
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9978acec0917cd46b54803460395a9d
+      internalID: -1044302686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_11
+      rect:
+        serializedVersion: 2
+        x: 4944
+        y: 10
+        width: 343
+        height: 571
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ed751cad19e434f978a4385074e939
+      internalID: -2005387081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_12
+      rect:
+        serializedVersion: 2
+        x: 5293
+        y: 5
+        width: 345
+        height: 573
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623f5e2435a50474e8e99c9b26f6207c
+      internalID: 929276745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet_MonstruoWAWAWa-HD-Monstruo (1)_13
+      rect:
+        serializedVersion: 2
+        x: 5641
+        y: 2
+        width: 357
+        height: 579
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfa46efe44300641b1bb87f34367b62
+      internalID: -1700889150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fe806b0ef5b7da74ba92d82f91fb4fb8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_0: -1675811783
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_1: 1316698726
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_10: -1044302686
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_11: -2005387081
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_12: 929276745
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_13: -1700889150
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_2: 1648993205
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_3: -1986308731
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_4: 1257710810
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_5: 1290776631
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_6: -1398076598
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_7: -1128833106
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_8: 1566560218
+      sheet_MonstruoWAWAWa-HD-Monstruo (1)_9: 747660796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
