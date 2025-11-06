@@ -1098,6 +1098,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
+--- !u!95 &474710816 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1674734788818152132, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
+  m_PrefabInstance: {fileID: 1883396678}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &496099751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2127,6 +2132,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!95 &1380287789 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1674734788818152132, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
+  m_PrefabInstance: {fileID: 142746773}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1411457664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,6 +2174,11 @@ Transform:
   - {fileID: 1302204958}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1505558453 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1674734788818152132, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
+  m_PrefabInstance: {fileID: 496099751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1516326176
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,6 +2517,11 @@ MeshFilter:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2523132741822241086, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
   m_PrefabInstance: {fileID: 1540307070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1757541838 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1674734788818152132, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
+  m_PrefabInstance: {fileID: 594615034}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1785779191
 PrefabInstance:
@@ -3126,6 +3146,14 @@ PlayableDirector:
     value: {fileID: 1674734789528275959}
   - key: {fileID: 3616896952689685067, guid: f36d5b77176406249bcebe5f00f7c8e8, type: 2}
     value: {fileID: 101019258}
+  - key: {fileID: 438923970037000163, guid: f36d5b77176406249bcebe5f00f7c8e8, type: 2}
+    value: {fileID: 1505558453}
+  - key: {fileID: 886809096332208997, guid: f36d5b77176406249bcebe5f00f7c8e8, type: 2}
+    value: {fileID: 474710816}
+  - key: {fileID: 5299562328630021797, guid: f36d5b77176406249bcebe5f00f7c8e8, type: 2}
+    value: {fileID: 1757541838}
+  - key: {fileID: 3750292687477212282, guid: f36d5b77176406249bcebe5f00f7c8e8, type: 2}
+    value: {fileID: 1380287789}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &2126751012
