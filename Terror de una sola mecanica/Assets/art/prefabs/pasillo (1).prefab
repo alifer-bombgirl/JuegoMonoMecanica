@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 16a93083930450f4eb7f86a0cdc45e0b, type: 2}
+    - target: {fileID: 8330720579303175231, guid: 70d75e131bf0fe1429b23afcf980e5dd, type: 3}
+      propertyPath: m_Name
+      value: Puerta_Mod_MSH_1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -95,7 +99,7 @@ Animator:
   m_GameObject: {fileID: 6275173012994214634}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b817d037570c24c4b88fa0605f7c56eb, type: 2}
+  m_Controller: {fileID: 9100000, guid: d9b072b3df9de6d4eb1dfe21b0d2a528, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

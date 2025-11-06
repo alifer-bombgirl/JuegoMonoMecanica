@@ -1773,31 +1773,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2523132741822241086, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7027923
+      value: 0.7026696
       objectReference: {fileID: 0}
     - target: {fileID: 2523132741822241086, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.00020397053
       objectReference: {fileID: 0}
     - target: {fileID: 2523132741822241086, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.71139514
+      value: -0.7115162
       objectReference: {fileID: 0}
     - target: {fileID: 2523132741822241086, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.00021889569
       objectReference: {fileID: 0}
     - target: {fileID: 2523132741822241086, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 0.034
       objectReference: {fileID: 0}
     - target: {fileID: 2523132741822241086, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90.697
+      value: -90.717
       objectReference: {fileID: 0}
     - target: {fileID: 2523132741822241086, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 2902613325450347396, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
       propertyPath: m_Name
@@ -3136,7 +3136,7 @@ PlayableDirector:
   m_GameObject: {fileID: 2126751010}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: f36d5b77176406249bcebe5f00f7c8e8, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: 2d4ffe0e2570a2d4fac043c43f92f90f, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -3154,6 +3154,18 @@ PlayableDirector:
     value: {fileID: 1757541838}
   - key: {fileID: 3750292687477212282, guid: f36d5b77176406249bcebe5f00f7c8e8, type: 2}
     value: {fileID: 1380287789}
+  - key: {fileID: 4174633614477065822, guid: 2d4ffe0e2570a2d4fac043c43f92f90f, type: 2}
+    value: {fileID: 1674734789528275959}
+  - key: {fileID: 4989528347900173770, guid: 2d4ffe0e2570a2d4fac043c43f92f90f, type: 2}
+    value: {fileID: 1380287789}
+  - key: {fileID: 8963779390253037432, guid: 2d4ffe0e2570a2d4fac043c43f92f90f, type: 2}
+    value: {fileID: 1505558453}
+  - key: {fileID: -2577329734595153395, guid: 2d4ffe0e2570a2d4fac043c43f92f90f, type: 2}
+    value: {fileID: 474710816}
+  - key: {fileID: -4045970574046172014, guid: 2d4ffe0e2570a2d4fac043c43f92f90f, type: 2}
+    value: {fileID: 101019258}
+  - key: {fileID: -2599615769001313654, guid: 2d4ffe0e2570a2d4fac043c43f92f90f, type: 2}
+    value: {fileID: 1757541838}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &2126751012
@@ -3227,10 +3239,6 @@ PrefabInstance:
     - target: {fileID: 2902613325450347396, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
       propertyPath: m_Name
       value: pasillo (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6275173012994214634, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
-      propertyPath: m_Name
-      value: Puerta_Mod_MSH_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
