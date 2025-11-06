@@ -64,6 +64,12 @@ public class CameraMovement : MonoBehaviour
 
     private Highlightable lastHighlighted;
 
+    /// <summary>
+    /// Expose currently highlighted object for other systems (interaction, consumo, etc.).
+    /// Puede ser null si no hay nada resaltado.
+    /// </summary>
+    public Highlightable CurrentHighlighted => lastHighlighted;
+
     void Awake()
     {
         playerControls = new Actions();
