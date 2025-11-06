@@ -576,8 +576,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.084199004, y: -0.017626345, z: 0.0014956119, w: 0.99629194}
-  m_LocalPosition: {x: 1.0793452, y: 1.188483, z: -0.11811328}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.97, y: 0.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1739,6 +1739,57 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2523132741822241086, guid: adc7847d38f6d3f41b2b277fcc2f1637, type: 3}
   m_PrefabInstance: {fileID: 870883285}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &977264890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 977264892}
+  - component: {fileID: 977264891}
+  m_Layer: 0
+  m_Name: director_camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &977264891
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977264890}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 5ec500cea6301d849b70f3184c9944b6, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -4556225068472317177, guid: 5ec500cea6301d849b70f3184c9944b6, type: 2}
+    value: {fileID: 1339664004}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &977264892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977264890}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.61751, y: -0.23, z: 2.63493}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1045371626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2046,7 +2097,7 @@ GameObject:
   - component: {fileID: 1339664002}
   - component: {fileID: 1339664004}
   m_Layer: 0
-  m_Name: CinemachineCamera (1)
+  m_Name: Cinemachine_intro_game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2109,7 +2160,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.661, y: -2.027, z: 0.001}
 --- !u!95 &1339664004
 Animator:
   serializedVersion: 7
@@ -2120,7 +2171,7 @@ Animator:
   m_GameObject: {fileID: 1339664001}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 811071b9bdd11924a94b2e0f9ca4d398, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4c68918348726b94a88e1fabb6503356, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3264,3 +3315,4 @@ SceneRoots:
   - {fileID: 941793565}
   - {fileID: 2126751012}
   - {fileID: 1339664003}
+  - {fileID: 977264892}
