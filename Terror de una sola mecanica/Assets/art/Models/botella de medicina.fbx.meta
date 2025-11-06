@@ -3,7 +3,17 @@ guid: 77c5c056825b0c24f977fc75948463d4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: botella_de_vidrio
+    second: {fileID: 2100000, guid: d6e8b78120fcbfc44b36ef56dbb10097, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: standardSurface1
+    second: {fileID: 2100000, guid: 1843950c810ad5842a181d3e510d6b3f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
