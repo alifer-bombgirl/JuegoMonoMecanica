@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5360922796422442542}
   - component: {fileID: 2772473192184344884}
   - component: {fileID: 4460465930458265453}
-  - component: {fileID: 9029388306230113055}
   - component: {fileID: 3429635214839587565}
+  - component: {fileID: -8080705077969083205}
   m_Layer: 0
   m_Name: Monstruo
   m_TagString: Untagged
@@ -55,6 +55,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -76,6 +78,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -112,23 +115,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &9029388306230113055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5725636840644546200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30ee185b75bc7964fa302a533dbbcc20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monsterType: Monster
-  requiredPillName: Monster
-  animator: {fileID: 4460465930458265453}
-  animatorStateParam: Speed
-  blendTreeStatesCount: 1
 --- !u!82 &3429635214839587565
 AudioSource:
   m_ObjectHideFlags: 0
@@ -216,7 +202,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -226,3 +212,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-8080705077969083205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5725636840644546200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44b837379bc00e14d9bcb1410501c9ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterController_New
+  monsterType: Monster
+  requiredPillName: Monster
+  animator: {fileID: 4460465930458265453}
+  blendMode: 1
+  animatorBlendParam: Speed
+  animatorBlendParamX: Horizontal
+  animatorBlendParamY: Speed
+  blendTreeStatesCount: 1
+  target: {fileID: 0}
+  moveSpeed: 1
+  runThreshold: 2
+  moveDelay: 5
+  movementEnabled: 0
+  runClip: {fileID: 8300000, guid: 3dc74a6a00981bb4f817e2dcc15c45e2, type: 3}
+  ambientClip: {fileID: 0}
+  anomalyDirector: {fileID: 0}

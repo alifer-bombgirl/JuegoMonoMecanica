@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7828460788636472934}
   - component: {fileID: 6754719260109723283}
   - component: {fileID: 5080738376648193394}
-  - component: {fileID: 5289743394852226791}
+  - component: {fileID: -7606140555902449835}
   m_Layer: 0
   m_Name: director
   m_TagString: Untagged
@@ -41,7 +41,7 @@ PlayableDirector:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1593957916809755697}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: 2d4ffe0e2570a2d4fac043c43f92f90f, type: 2}
   m_InitialState: 1
@@ -98,7 +98,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5289743394852226791
+--- !u!114 &-7606140555902449835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,11 +107,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1593957916809755697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30ee185b75bc7964fa302a533dbbcc20, type: 3}
+  m_Script: {fileID: 11500000, guid: 44b837379bc00e14d9bcb1410501c9ae, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterController_New
   monsterType: Anomaly
   requiredPillName: Anomaly
-  animator: {fileID: 5080738376648193394}
-  animatorStateParam: State
+  animator: {fileID: 0}
+  blendMode: 1
+  animatorBlendParam: Speed
+  animatorBlendParamX: Horizontal
+  animatorBlendParamY: Speed
   blendTreeStatesCount: 1
+  target: {fileID: 0}
+  moveSpeed: 2
+  runThreshold: 1
+  moveDelay: 0
+  movementEnabled: 0
+  runClip: {fileID: 0}
+  ambientClip: {fileID: 8300000, guid: 07d5c17cfb7d4e047a8784c6770ae54d, type: 3}
+  anomalyDirector: {fileID: 6754719260109723283}
+  anomalySceneTriggerObject: {fileID: 0}
+  anomalySceneTriggerName: Anomally
+  allowRepeatAnomalyTrigger: 1
